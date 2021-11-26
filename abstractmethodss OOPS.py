@@ -1,5 +1,5 @@
 from abc import ABC,abstractmethod
-class shape(ABC):               #yha iss class ka mtlb h ki ye kehta h ki agr shape class s inherit krre ho to jo ye mthod h
+class shape(ABC):          #yha iss class ka mtlb h ki ye kehta h ki agr shape class s inherit krre ho to jo ye mthod h
                            #ise apni dusri class m define kro
     @abstractmethod
     def printarea(self):

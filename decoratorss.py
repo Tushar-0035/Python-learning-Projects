@@ -11,7 +11,10 @@ def decor(num):
 
     return inner
 @decor
-def num():
-    print("i am very good boy")
+def who_is_tush():
+    print("He is very good boy")
     print("And very punctual")
-num()
+#who_is_tush= decor(who_is_tush) #ese bnate h decorator....aur jo uper short m @decor likha h vo iska short tarika h
+#ham vo hi use krna prefer krte h
+who_is_tush()
+#uses of decorators: jab hame ek hi kamm 10 function k sath krna ho

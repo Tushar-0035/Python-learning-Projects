@@ -6,13 +6,13 @@ print(grocery[::3])
 numbers=[1,23,3,14,5,26]
 #print(numbers)
 #numbers.sort()
-#numbers.reverse()
+numbers.reverse()
 #numbers.append(34)
 #numbers.insert(4,17)
 #numbers.pop()
 #numbers.remove(14)
 numbers[1]=6
-#print(numbers)
+print(numbers)
 #this is tupple
 tp=(1,9,10,45,67)
 print(tp)
